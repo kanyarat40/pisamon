@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+[[mods]]
+modId="pisamon"
+version="0.2.0"
+displayName="Pisamon - ผีชุดดำ & กระสุนอาคม"
+description='''ผีไทยชุดดำ ที่กระสุนธรรมดาทำอะไรไม่ได้ ต้องใช้กระสุนอาคมหรือมีดอาคม (ต้องใช้คู่กับ TaCZ)'''
+[[dependencies.pisamon]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.pisamon]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.pisamon]]
+modId="tacz"
+mandatory=true
+versionRange="[1.1.0,)"
+ordering="AFTER"
+side="BOTH"

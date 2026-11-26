@@ -1,0 +1,11 @@
+{
+  "itemGroup.pisamon": "ผีไทย",
+  "item.pisamon.magic_knife": "มีดอาคม",
+  "item.pisamon.black_ghost_spawn_egg": "ไข่เสกผีชุดดำ",
+  "item.pisamon.tiger_spirit_spawn_egg": "ไข่เสกเสือสมิง",
+  "entity.pisamon.black_ghost": "ผีชุดดำ",
+  "entity.pisamon.tiger_spirit": "เสือสมิง",
+  "entity.pisamon.seat": "ที่นั่ง",
+  "subtitles.pisamon.ghost_taunt": "ผีหัวเราะเยาะ",
+  "subtitles.pisamon.ghost_wail": "ผีร้องโหยหวน"
+}

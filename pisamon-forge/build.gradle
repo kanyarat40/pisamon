@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+}
+group = 'com.pisamon'
+version = '0.2.0'
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        client { workingDirectory project.file('run'); mods { pisamon { source sourceSets.main } } }
+        server { workingDirectory project.file('run'); mods { pisamon { source sourceSets.main } } }
+    }
+}
+repositories {
+    maven { url = 'https://cursemaven.com'; content { includeGroup 'curse.maven' } }
+}
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.3.0'
+    // TaCZ 1.1.6 (ปรับเลข file id ตามเวอร์ชันที่ใช้)
+    implementation fg.deobf('curse.maven:timeless-and-classics-zero-1028108:6632240')
+}
+jar.finalizedBy('reobfJar')

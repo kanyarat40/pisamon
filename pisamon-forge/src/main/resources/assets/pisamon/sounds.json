@@ -1,0 +1,10 @@
+{
+  "ghost_taunt": {
+    "subtitle": "subtitles.pisamon.ghost_taunt",
+    "sounds": [ { "name": "pisamon:ghost_taunt", "stream": false } ]
+  },
+  "ghost_wail": {
+    "subtitle": "subtitles.pisamon.ghost_wail",
+    "sounds": [ { "name": "pisamon:ghost_wail", "stream": false } ]
+  }
+}
